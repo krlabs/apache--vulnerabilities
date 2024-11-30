@@ -32,7 +32,6 @@
 | [**CVE-2011-4415**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4415) | Локальний користувач може викликати відмову в обслуговуванні. |
 | [**CVE-2012-0031**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0031) | Дозволяє локальному користувачу викликати «відмову в обслуговуванні». |
 | [**CVE-2012-0053**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0053) | Дозволяє зловмиснику отримати HTTPOnly cookies за допомогою спеціально сформованого веб-скрипта. |
-| [**CVE-2012-0053**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0053) | Уразливість дозволяє отримати HTTPOnly cookies через помилки у відправленні Bad Request. |
 | [**CVE-2012-0031**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0031) | Локальний користувач може викликати відмову в обслуговуванні. |
 | [**CVE-2012-2687**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2687) | Уразливість у модулі mod_negotiation дозволяє провести XSS-атаку. |
 | [**CVE-2012-0883**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0883) | Локальний користувач може підвищити привілеї. |
