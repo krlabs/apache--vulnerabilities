@@ -47,3 +47,5 @@
 - [MITRE CVE](http://cve.mitre.org/)
 - [Exploit Database](https://www.exploit-db.com/)
 - [Red Hat Security Advisories](https://access.redhat.com/security/updates/classification/)
+- [TrustWave. Hunting For Integer Overflows In Web Servers](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/hunting-for-integer-overflows-in-web-servers/)
+- [Qualys Community.Apache HTTP Server Path Traversal & Remote Code Execution (CVE-2021-41773 & CVE-2021-42013)](https://blog.qualys.com/vulnerabilities-threat-research/2021/10/27/apache-http-server-path-traversal-remote-code-execution-cve-2021-41773-cve-2021-42013)
