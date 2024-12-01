@@ -67,5 +67,5 @@
 - [NMAP Vuln NSE](https://nmap.org/nsedoc/categories/vuln.html)
 - [NMAP Script Vulners](https://nmap.org/nsedoc/scripts/vulners.html)
 - [KR.Laboratories. Google Dorks Gold Collection](https://kr-labs.com.ua/blog/google-dorks-for-osint/)
-- [KR. Laboratories. Cyber Threat Intelligence platforms and Security Search Engines list](https://kr-labs.com.ua/blog/search-engines-for-penetration-tester/)
+- [KR. Laboratories. Cyber Threat Intelligence Platforms and Search Engines list](https://kr-labs.com.ua/blog/search-engines-for-penetration-tester/)
 - [Feedly. Threat Intelligence. CVE Trending](https://feedly.com/cve)
