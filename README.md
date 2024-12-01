@@ -2,7 +2,7 @@
 
 Публікується з метою контролю безпеки сайтів на базі веб-серверів Apache. На замітку дослідникам та власникам електронних ресурсів.
 
-Дані вразливості були виявлені дослідниками KR. Laboratories в ході глобального аудиту ресурсів інтернет-мережі УАРНЕТ й можуть бути використані як легітимними пентестерами, так і зловмисниками для проведення таких атак як: переповнення буфера (buffer overflow), Denial of Service / Distributed Denial of Service (DoS/DDoS), розкриття конфіденційної інформації (expose sesitive information / information disclosure), пошкодження даних і помилки конфігураці та багато інших.   
+Дані вразливості були виявлені дослідниками KR. Laboratories в ході глобального аудиту ресурсів інтернет-мережі УАРНЕТ й можуть бути використані як легітимними пентестерами, так і зловмисниками для проведення таких атак як: переповнення буфера (buffer overflow), Denial of Service / Distributed Denial of Service Attack (DoS/DDoS), розкриття конфіденційної інформації (expose sesitive information / information disclosure), пошкодження даних і помилки конфігураці та багато інших.   
 
 Ми рекомендуємо українським веб-майстрам і системним адміністраторам регулярно оновлювати серверне програмне забезпечення та використовувати наші рекомендації щодо кібербезпеки, аби мінімізувати потенційні ризики.  
 
@@ -42,6 +42,14 @@
 | [**CVE-2012-2687**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2687) | Вразливість у модулі mod_negotiation дозволяє провести XSS-атаку. |
 | [**CVE-2012-0883**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0883) | Локальний користувач може підвищити привілеї. |
 | [**CVE-2016-8740**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8740) | Вразливість у модулі HTTP/2 в Apache HTTP Server дозволяє викликати відмову в обслуговуванні (DoS) через некоректну обробку певних HTTP/2 запитів. Вразливість пов'язана з тим, як сервер обробляє спеціально сформовані запити у HTTP/2. | [Публічний експлойт](https://www.exploit-db.com/exploits/40909) |
+| [**CVE-2024-38472**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38472) | Уразливість в Apache HTTP Server, яка дозволяє викликати відмову в обслуговуванні через некоректну обробку спеціально сформованих HTTP-запитів. |
+| [**CVE-2024-39573**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-39573) | Вразливість у модулі mod_proxy, що дозволяє зловмисникам отримати доступ до внутрішніх ресурсів сервера через помилки у конфігурації проксі. |
+| [**CVE-2024-38477**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38477) | Вразливість у модулі mod_ssl, яка може призвести до витоку даних через некоректну обробку TLS-з’єднань. |
+| [**CVE-2024-38476**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38476) | Вразливість у HTTP/2 обробнику, що дозволяє викликати відмову в обслуговуванні через спеціально сформовані запити. |
+| [**CVE-2024-38475**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38475) | Уразливість у модулі mod_rewrite, яка дозволяє обходити налаштування безпеки через некоректно оброблені правила перепису. |
+| [**CVE-2024-38474**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38474) | Уразливість у модулі mod_headers, яка дозволяє викликати відмову в обслуговуванні через некоректну обробку певних заголовків HTTP. |
+| [**CVE-2024-38473**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38473) | Уразливість у Apache HTTP Server, яка дозволяє обійти обмеження доступу до захищених ресурсів через спеціально сформовані запити. |
+| [**CVE-2023-38709**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38709) | Уразливість у Apache HTTP Server, яка дозволяє віддаленим зловмисникам викликати відмову в обслуговуванні через неправильну обробку певних запитів. |
 
 ### Джерела
 - [TrustWave. Hunting For Integer Overflows In Web Servers](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/hunting-for-integer-overflows-in-web-servers/)
@@ -51,3 +59,4 @@
 - [Medium.Exploit Apache HTTP Server Vulnerabilities](https://medium.com/@sebastienwebdev/exploit-apache-http-server-vulnerabilities-a18049ee1f05)
 - [ExploitDB.Apache Vulnerabilities](https://www.exploit-db.com/?search=apache)
 - [ZeroDay.cz.0-Zero-Day Vulnerabilities](https://www.zero-day.cz)
+- [Apache HTTP Server Vulnerability Testing Tool](https://github.com/mrmtwoj/apache-vulnerability-testing)
