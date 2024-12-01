@@ -6,11 +6,11 @@
 
 Ми рекомендуємо українським веб-майстрам і системним адміністраторам регулярно оновлювати серверне програмне забезпечення та використовувати наші рекомендації щодо кібербезпеки, аби мінімізувати потенційні ризики.  
 
-З приводу послуг кібербезпеки пишіть нам на електронну скриньку: security[@]kr-labs.com.ua
+З приводу захисту веб-серверів Apache пишіть нам на електронну скриньку: security[@]kr-labs.com.ua
 
 | **CVE Ідентифікатор** | **Опис** | **Exploit** |
 |------------------------|----------|-------------|
-| [**CVE-2007-5000**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-5000) | Вразливість у модулі mod_imagemap дозволяє провести віддалену XSS-атаку. | [Публічний експлойт](http://example.com/exploit/6420). |
+| [**CVE-2007-5000**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-5000) | Вразливість у модулі mod_imagemap дозволяє провести віддалену XSS-атаку. | [Публічний експлойт](http://example.com/exploit/6420) |
 | [**CVE-2007-6420**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6420) | Вразливість у модулі mod_proxy_balancer дозволяє провести CSRF-атаку на серверах, де дозволено використання цього модуля. |
 | [**CVE-2007-6421**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6421) | Вразливість у модулі mod_proxy_balancer дозволяє провести XSS-атаку. |
 | [**CVE-2007-6422**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6422) | Вразливість у модулі mod_proxy_balancer дозволяє викликати відмову в обслуговуванні. |
@@ -29,7 +29,7 @@
 | [**CVE-2010-1452**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1452) | Вразливість у модулях mod_cache та mod_dav дозволяє викликати відмову в обслуговуванні. |
 | [**CVE-2010-1623**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1623) | Дозволяє зловмиснику (віддалено) викликати відмову в обслуговуванні (надмірне споживання пам’яті). |
 | [**CVE-2011-0419**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0419) | Дозволяє атакуючому, залежному від контексту, викликати відмову в обслуговуванні (CPU та пам’ять) через послідовність «*?» у першому аргументі, як показали атаки на mod_autoindex у HTTPD. |
-| [**CVE-2011-3192**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3192) | Дозволяє зловмиснику (віддалено) викликати відмову в обслуговуванні (пам’ять і процесор) через заголовок Range, який виражає кілька перекриваючихся діапазонів. |
+| [**CVE-2011-3192**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3192) | Дозволяє зловмиснику (віддалено) викликати відмову в обслуговуванні (пам’ять і процесор) через заголовок Range, який виражає кілька перекриваючихся діапазонів. | [Публічний експлойт](https://github.com/limkokholefork/CVE-2011-3192) |
 | [**CVE-2011-3348**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3348) | Дозволяє зловмиснику (віддалено) викликати відмову в обслуговуванні (тимчасовий «стан помилки» на внутрішньому сервері) через неправильно сформований HTTP-запит. |
 | [**CVE-2011-3368**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3368) | Дозволяє зловмиснику (віддалено) відправити запит на сервери внутрішньої мережі. |
 | [**CVE-2011-3607**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3607) | Дозволяє локальному користувачу підвищити свої права в системі. |
@@ -43,9 +43,7 @@
 | [**CVE-2012-0883**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0883) | Локальний користувач може підвищити привілеї. |
 
 ### Джерела
-- [CVE Details](https://www.cvedetails.com/)
-- [MITRE CVE](http://cve.mitre.org/)
-- [Exploit Database](https://www.exploit-db.com/)
-- [Red Hat Security Advisories](https://access.redhat.com/security/updates/classification/)
 - [TrustWave. Hunting For Integer Overflows In Web Servers](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/hunting-for-integer-overflows-in-web-servers/)
 - [Qualys Community.Apache HTTP Server Path Traversal & Remote Code Execution (CVE-2021-41773 & CVE-2021-42013)](https://blog.qualys.com/vulnerabilities-threat-research/2021/10/27/apache-http-server-path-traversal-remote-code-execution-cve-2021-41773-cve-2021-42013)
+- [Medium.CVE-2024–40725 and CVE-2024–40898: Critical Vulnerabilities in Apache HTTP Server](https://infosecwriteups.com/cve-2024-40725-and-cve-2024-40898-critical-vulnerabilities-in-apache-http-server-d292084255dc)
+- [Medium.Exploit Apache HTTP Server Vulnerabilities](https://medium.com/@sebastienwebdev/exploit-apache-http-server-vulnerabilities-a18049ee1f05)
