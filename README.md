@@ -42,7 +42,7 @@
 | [**CVE-2012-2687**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2687) | Вразливість у модулі mod_negotiation дозволяє провести XSS-атаку. |
 | [**CVE-2012-0883**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0883) | Локальний користувач може підвищити привілеї. |
 | [**CVE-2016-8740**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8740) | Вразливість у модулі HTTP/2 в Apache HTTP Server дозволяє викликати відмову в обслуговуванні (DoS) через некоректну обробку певних HTTP/2 запитів. Вразливість пов'язана з тим, як сервер обробляє спеціально сформовані запити у HTTP/2. | [Експлойт](https://www.exploit-db.com/exploits/40909) |
-| [**CVE-2021-41773**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-41773)  | Вразливість протоколу Layer 2 Tunneling Protocol, що призводить до віддаленого виконання коду Remote Code Execution Vulnerability. | [PoC 1](https://github.com/lorddemon/CVE-2021-41773-PoC) ,[PoC 2](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
+| [**CVE-2021-41773**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-41773)  | Вразливість протоколу Layer 2 Tunneling Protocol, що призводить до віддаленого виконання коду Remote Code Execution Vulnerability. | [PoC 1](https://github.com/lorddemon/CVE-2021-41773-PoC) [PoC 2](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 | [**CVE-2023-43622**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43622) | Вразливість у Apache HTTP Server версій від 2.4.55 до 2.4.57 дозволяє зловмиснику встановити HTTP/2-з'єднання з початковим розміром вікна 0, що призводить до блокування обробки цього з'єднання на невизначений час. Це може вичерпати ресурси сервера, подібно до атаки "slowloris". | [Експлойт](https://github.com/visudade/CVE-2023-43622/blob/main/exploit.py)
 | [**CVE-2023-38709**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38709) | Неправильна перевірка вхідних даних у ядрі Apache дозволяє зловмисникам маніпулювати відповідями HTTP | [Експлойт](https://github.com/mrmtwoj/apache-vulnerability-testing/blob/main/poc_vulnerability_testing.py)
 | [**CVE-2024-27316**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27316) | Вхідні заголовки HTTP/2, що перевищують ліміт, тимчасово буферизуються в nghttp2, щоб сформувати код відповіді HTTP 413. Якщо зловмисник не припиняє надсилати заголовки, це призводить до виснаження пам’яті і падіння сервера. | [Експлойт](https://github.com/lockness-Ko/CVE-2024-27316) |
@@ -64,3 +64,5 @@
 - [ZeroDay.cz.0-Zero-Day Vulnerabilities](https://www.zero-day.cz)
 - [Apache HTTP Server Vulnerability Testing Tool](https://github.com/mrmtwoj/apache-vulnerability-testing)
 - [ReconScan](https://github.com/RoliSoft/ReconScan)
+- [NMAP Vuln NSE](https://nmap.org/nsedoc/categories/vuln.html)
+- [NMAP Script Vulners](https://nmap.org/nsedoc/scripts/vulners.html)
