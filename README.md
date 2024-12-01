@@ -50,4 +50,4 @@
 - [Medium.CVE-2024–40725 and CVE-2024–40898: Critical Vulnerabilities in Apache HTTP Server](https://infosecwriteups.com/cve-2024-40725-and-cve-2024-40898-critical-vulnerabilities-in-apache-http-server-d292084255dc)
 - [Medium.Exploit Apache HTTP Server Vulnerabilities](https://medium.com/@sebastienwebdev/exploit-apache-http-server-vulnerabilities-a18049ee1f05)
 - [ExploitDB.Apache Vulnerabilities](https://www.exploit-db.com/?search=apache)
-- {ZeroDay.cz.0-Zero-Day Vulnerabilities](https://www.zero-day.cz)
+- [ZeroDay.cz.0-Zero-Day Vulnerabilities](https://www.zero-day.cz)
