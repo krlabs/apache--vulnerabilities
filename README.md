@@ -2,7 +2,7 @@
 
 Публікується з метою контролю безпеки сайтів на базі веб-серверів Apache. На замітку дослідникам та власникам електронних ресурсів. В рамках волонтерського проєкту "За вільний і безпечний УАРНЕТ!".
 
-Дані вразливості були виявлені дослідниками KR. Laboratories в ході глобального аудиту ресурсів інтернет-мережі UARNET й можуть бути використані як легітимними пентестерами, так і зловмисниками для проведення таких атак як: переповнення буфера (buffer overflow), Denial of Service / Distributed Denial of Service Attack (DoS/DDoS), Path Traversal, Local File Inclusion / Remote File Inclusion (LFI/RFI), Cross Site Scripting Attack (XSS), Cross Site Request Forgery / Server Side Request Forgery (CSRF/SSRF), розкриття конфіденційної інформації (Expose sesitive information / Information Disclosure), пошкодження або втрата даних, помилки конфігураці та багато інших.   
+Дані вразливості були виявлені дослідниками KR. Laboratories в ході глобального аудиту ресурсів інтернет-мережі UARNET й можуть бути використані як легітимними пентестерами, так і зловмисниками для проведення таких атак як: переповнення буфера (buffer overflow), Denial of Service / Distributed Denial of Service Attack (DoS/DDoS), Path Traversal, Local File Inclusion / Remote File Inclusion (LFI/RFI), Cross Site Scripting Attack (XSS), Cross Site Request Forgery / Server Side Request Forgery (CSRF/SSRF), розкриття конфіденційної інформації (Expose Sensitive Information / Information Disclosure), пошкодження або втрата даних, помилки конфігураці та багато інших.   
 
 Ми рекомендуємо українським веб-майстрам і системним адміністраторам регулярно оновлювати серверне програмне забезпечення та використовувати наші рекомендації щодо кібербезпеки, аби мінімізувати потенційні ризики.  
 
