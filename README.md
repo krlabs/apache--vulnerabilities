@@ -32,9 +32,9 @@
 | [**CVE-2011-3192**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3192) | Дозволяє зловмиснику (віддалено) викликати відмову в обслуговуванні (пам’ять і процесор) через заголовок Range, який виражає кілька перекриваючихся діапазонів. | [Експлойт 1](https://github.com/limkokholefork/CVE-2011-3192) [Експлойт 2](https://www.exploit-db.com/exploits/17696)
 | [**CVE-2011-3348**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3348) | Дозволяє зловмиснику (віддалено) викликати відмову в обслуговуванні (тимчасовий «стан помилки» на внутрішньому сервері) через неправильно сформований HTTP-запит. |
 | [**CVE-2011-3368**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3368) | Дозволяє зловмиснику (віддалено) відправити запит на сервери внутрішньої мережі. | [Експлойт](https://www.exploit-db.com/exploits/17969) |
-| [**CVE-2011-3607**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3607) | Дозволяє локальному користувачу підвищити свої права в системі. | [Експлойт](https://www.exploit-db.com/exploits/41769)
+| [**CVE-2011-3607**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3607) | Дозволяє локальному користувачу підвищити свої права в системі. | [Експлойт](https://www.exploit-db.com/exploits/41769) |
 | [**CVE-2011-3639**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3639) | Вразливість дозволяє викликати відмову в обслуговуванні через використання HTTP/0.9. |
-| [**CVE-2011-4317**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4317) | Вразливість у модулі proxy дозволяє обходити обмеження доступу. |
+| [**CVE-2011-4317**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4317) | Вразливість у модулі proxy дозволяє обходити обмеження доступу. | [Експлойт](https://www.exploit-db.com/exploits/36352) |
 | [**CVE-2011-4415**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4415) | Локальний користувач може викликати відмову в обслуговуванні. |
 | [**CVE-2012-0031**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0031) | Дозволяє локальному користувачу викликати «відмову в обслуговуванні». |
 | [**CVE-2012-0053**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0053) | Дозволяє зловмиснику отримати HTTPOnly cookies за допомогою спеціально сформованого веб-скрипта. | [Експлойт](https://github.com/jonathansp/CVE20120053Demo) |
