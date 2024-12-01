@@ -66,3 +66,4 @@
 - [ReconScan](https://github.com/RoliSoft/ReconScan)
 - [NMAP Vuln NSE](https://nmap.org/nsedoc/categories/vuln.html)
 - [NMAP Script Vulners](https://nmap.org/nsedoc/scripts/vulners.html)
+- [KR.Laboratories.Google Dorks Gold Collection](https://kr-labs.com.ua/blog/google-dorks-for-osint/)
