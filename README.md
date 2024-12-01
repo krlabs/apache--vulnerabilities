@@ -41,7 +41,7 @@
 | [**CVE-2012-0031**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0031) | Локальний користувач може викликати відмову в обслуговуванні. |
 | [**CVE-2012-2687**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2687) | Вразливість у модулі mod_negotiation дозволяє провести XSS-атаку. |
 | [**CVE-2012-0883**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0883) | Локальний користувач може підвищити привілеї. |
-| [**CVE-2016-8740**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8740) | Локальний користувач може підвищити привілеї. | [Публічний експлойт](https://www.exploit-db.com/exploits/40909) |
+| [**CVE-2016-8740**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8740) | Вразливість у модулі HTTP/2 в Apache HTTP Server дозволяє викликати відмову в обслуговуванні (DoS) через некоректну обробку певних HTTP/2 запитів. Вразливість пов'язана з тим, як сервер обробляє спеціально сформовані запити у HTTP/2. | [Публічний експлойт](https://www.exploit-db.com/exploits/40909) |
 
 ### Джерела
 - [TrustWave. Hunting For Integer Overflows In Web Servers](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/hunting-for-integer-overflows-in-web-servers/)
