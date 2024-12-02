@@ -11,7 +11,7 @@
 | **CVE Ідентифікатор** &nbsp; &nbsp; | **Опис** | **Exploit / PoC** |
 |-----------------------------------------------------|----------|-------------|
 | [**CVE-2007-5000**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-5000)| Вразливість у модулі mod_imagemap дозволяє провести XSS-атаку. | [Експлойт](http://example.com/exploit/6420) |
-| [**CVE-2007-6420**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6420) | Вразливість у модулі mod_proxy_balancer дозволяє провести CSRF-атаку. |
+| [**CVE-2007-6420**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6420) | Вразливість у модулі mod_proxy_balancer дозволяє провести CSRF-атаку. | N/a |
 | [**CVE-2007-6421**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6421) | Вразливість у модулі mod_proxy_balancer дозволяє провести XSS-атаку. |
 | [**CVE-2007-6422**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6422) | Вразливість у модулі mod_proxy_balancer дозволяє викликати відмову в обслуговуванні. |
 | [**CVE-2007-6399**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6399) | Вразливість у модулі mod_status дозволяє провести XSS-атаку. |
