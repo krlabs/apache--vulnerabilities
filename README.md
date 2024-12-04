@@ -76,3 +76,4 @@
 - [Apache HTTP Server 2.4 vulnerabilities](https://httpd.apache.org/security/vulnerabilities_24.html)
 - [Cyber Secutity News. Critical Apache HTTP Server Vulnerabilities Expose Millions of Websites to Cyber Attack](https://cybersecuritynews.com/critical-apache-http-server-vulnerabilities/)
 - [Medium. Bypassing Multiple 403 Response Type Pages](https://medium.com/@Dhamuharker/bypassing-403-response-type-pages-f2f37975ae29)
+- [Bypass-403 Tool on GitHub](https://github.com/iamj0ker/bypass-403)
