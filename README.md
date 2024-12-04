@@ -8,7 +8,7 @@
 
 З приводу захисту веб-серверів пишіть нам на електронну скриньку: security[@]kr-labs.com.ua
 
-| **CVE Ідентифікатор** &nbsp; &nbsp; | **Опис** | **Exploit / PoC** |
+| **CVE Ідентифікатор** &nbsp; &nbsp; &nbsp; &nbsp; | **Опис** | **Exploit / PoC** |
 |-----------------------------------------------------|----------|-------------|
 | [**CVE-2007-5000**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-5000)| Вразливість у модулі mod_imagemap дозволяє провести XSS-атаку. | [Експлойт](http://example.com/exploit/6420) |
 | [**CVE-2007-6420**](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6420) | Вразливість у модулі mod_proxy_balancer дозволяє провести CSRF-атаку. | N/a |
